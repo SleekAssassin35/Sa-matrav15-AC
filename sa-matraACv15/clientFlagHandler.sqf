@@ -13,7 +13,7 @@ if (typeName _this == "ARRAY" && {count _this > 1}) then
 		disableUserInput true;
 		setPlayerRespawnTime 1e11;
 
-		if (damage player < 1) then // if check required to prevent "Killed" EH from getting triggered twice
+		if (damage player < 1) then // Check etme eklendi 03.10.2023
 		{
 			player setVariable ["A3W_deathCause_local", ["forcekill"]];
 			player setDamage 1;
