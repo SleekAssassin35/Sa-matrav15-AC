@@ -19,7 +19,7 @@ scopeName "compileFuncs";
 
 		missionNamespace setVariable [_func, _finalVal];
 
-		// Kick back to lobby if assignment fails
+		// Kick ve Ban üzerine gerekli eklemeler yapıldı 03.10.2023
 		if (!isServer && {str (missionNamespace getVariable [_func, ""]) != str _finalVal}) then
 		{
 			0 spawn
